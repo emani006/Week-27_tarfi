@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    background-color: $main-bg-color;
+}
+.tarifCard {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 200px 50px 70px;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid red;
+}
+
+.top {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.rub {
+    font-size: 12px;
+    margin-left:-30px;
+}
+
+.monthly {
+    font-size: 14px;
+}
+
+.note {
+    font-size: 14px;
+    text-align: center;
+}
