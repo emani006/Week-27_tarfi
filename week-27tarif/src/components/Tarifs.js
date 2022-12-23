@@ -6,9 +6,8 @@ import Tarifcard from './Tarifcard';
 function Tarifs(props) {
     const note = 'Объем включенного трафика не ограничен';
     
-
     return (
-        <Tarifcard background={props.color}>
+        <Tarifcard>
             <div className='top'>{props.name}</div>
             <div className='middle'>
                 <div className='rub'>руб. </div>
