@@ -1,5 +1,48 @@
-.container {
+/*
+.tarifCard {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 200px 50px 70px;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid red;
+}
+*/
+.top {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-}/*# sourceMappingURL=main-style.css.map */
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  align-items: center;
+  justify-items: center;
+  border: 1px solid blue;
+}
+
+.middle {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.price {
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+.rub {
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: -7rem;
+}
+
+.monthly {
+  font-size: 14px;
+}
+
+.note {
+  font-size: 14px;
+  text-align: center;
+}/*# sourceMappingURL=mainStyle.css.map */
