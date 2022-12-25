@@ -1,13 +1,12 @@
 import React from 'react';
 import Tarifcard from './Tarifcard';
-//import "./styles/mainStyle.scss";
-//import "./tstyle.css";
+//import styled from 'styled-components';
 
 function Tarifs(props) {
     const note = 'Объем включенного трафика не ограничен';
-    
+
     return (
-        <Tarifcard >
+        <Tarifcard>
             <div className='top' style={{backgroundColor: props.color}}>{props.name}</div>
             <div className='middle' style={{backgroundColor: props.color}}>
                 <div className='rub'>руб. </div>
@@ -17,6 +16,5 @@ function Tarifs(props) {
             <div className='note'>{note}</div>
         </Tarifcard>
         );
-    }
-    
+}    
     export default Tarifs;  

@@ -48,4 +48,13 @@
   font-size: 14px;
   text-align: center;
   align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px 200px 50px 70px;
+  align-items: center;
+  justify-items: center;
+  border: 1px solid white;
 }/*# sourceMappingURL=mainStyle.css.map */

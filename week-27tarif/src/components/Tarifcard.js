@@ -9,5 +9,4 @@ const Tarifcard = styled.div`
     border: 1px solid white;
 
 `;
-
 export default Tarifcard;
