@@ -7,7 +7,7 @@ function Tarifs(props) {
     const note = 'Объем включенного трафика не ограничен';
     
     return (
-        <Tarifcard>
+        <Tarifcard style={{backgroundColor: props.color}}>
             <div className='top'>{props.name}</div>
             <div className='middle'>
                 <div className='rub'>руб. </div>

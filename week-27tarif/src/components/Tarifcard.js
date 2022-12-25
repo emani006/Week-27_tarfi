@@ -8,7 +8,6 @@ const Tarifcard = styled.div`
     justify-items: center;
     border: 1px solid red;
 
-    background-color: ${props => props.color};
 `;
 
 export default Tarifcard;
