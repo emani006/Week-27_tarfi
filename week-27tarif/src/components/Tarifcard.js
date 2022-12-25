@@ -6,7 +6,7 @@ const Tarifcard = styled.div`
     grid-template-rows: 70px 200px 50px 70px;
     align-items: center;
     justify-items: center;
-    border: 1px solid red;
+    border: 1px solid white;
 
 `;
 
